@@ -1,1 +1,3 @@
 # Razee
+
+## [Inventory](./inventory.md)
