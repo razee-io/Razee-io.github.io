@@ -58,8 +58,7 @@ BaseController
 |   └── BaseTemplateController
 |       └── MustacheTemplateController
 └── BaseFeatureFlagSetController //to be implemented
-    ├── LDFeatureFlagSetController
-    └── JSONFeatureFlagSetController //to be implemented
+    └── LDFeatureFlagSetController
 ```
 
 #### Extensible Controllers
