@@ -43,7 +43,7 @@ extending Kapitan that we use for our own CI process).
   - Controller: connects and processes feature flags for the cluster, and
   saves the data into the cluster for use by other resources.
 
-### Extensible Controllers
+### Controllers
 
 ```text
 Controller Hierarchy
@@ -61,6 +61,8 @@ BaseController
     ├── LDFeatureFlagSetController
     └── JSONFeatureFlagSetController //to be implemented
 ```
+
+#### Extensible Controllers
 
 - BaseController: All of our controllers extend the BaseController, a collection of helper
 functions to process resource events, apply files to the cluster, and update
@@ -82,3 +84,12 @@ BaseTemplateController handles the hard stuff, but requires subclasses to
 implement the processTemplate(templates, view) function which takes a set of
 templates and a set of environment variables and returns the set of processed
 templates to be handled and applied to the cluster by BaseTemplateController.
+
+#### Implemented Controllers
+
+- ManagedSetController
+- HTTPDownloadController
+- S3DownloadController
+- DecryptS3DownloadController
+- MustacheTemplateController
+- LDFeatureFlagSetController
