@@ -8,7 +8,8 @@ definitions. Kapitan is designed to be extensible so that any developer can
 easily plugin their custom CI process into Kapitan (We have several examples of
 extending Kapitan that we use for our own CI process).
 
-Kapitan is separated into 4 main components:
+### Core Components
+
 - Download:
   - The most essential of all 4 components, Download can be an
   effective first step into using Kapitan, as it doesn't require any of the
@@ -42,10 +43,7 @@ Kapitan is separated into 4 main components:
   - Controller: connects and processes feature flags for the cluster, and
   saves the date into the cluster for use by other resources.
 
-
-
-
-## Core Controllers
+### Extensible Controllers
 
 ```text
 Controller Hierarchy
