@@ -92,4 +92,6 @@ templates to be handled and applied to the cluster by BaseTemplateController.
 - S3DownloadController
 - DecryptS3DownloadController
 - MustacheTemplateController
-- LDFeatureFlagSetController
+- LDFeatureFlagSetController: Connects to the feature flag service LaunchDarkly,
+evaluates the feature flag rules based on environment data found in the cluster,
+and saves the result to the cluster to be used by other resources.
