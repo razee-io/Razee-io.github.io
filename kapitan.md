@@ -41,7 +41,7 @@ extending Kapitan that we use for our own CI process).
   used by our Template resource.
   - CRD: information on how to connect to the feature flag service.
   - Controller: connects and processes feature flags for the cluster, and
-  saves the date into the cluster for use by other resources.
+  saves the data into the cluster for use by other resources.
 
 ### Extensible Controllers
 
