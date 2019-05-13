@@ -53,8 +53,8 @@ BaseController
 |   ├── ManagedSetController
 |   ├── BaseDownloadController
 |   |   ├── HTTPDownloadController
-|   |   └── S3DownloadController
-|   |       └── DecryptS3DownloadController
+|   |   └── RemoteResourceController
+|   |       └── RemoteResourceS3Controller
 |   └── BaseTemplateController
 |       └── MustacheTemplateController
 └── BaseFeatureFlagSetController //to be implemented
