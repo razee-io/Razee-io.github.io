@@ -1,0 +1,104 @@
+<svg width="568" height="310" viewBox="0 0 568 310" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M57.8486 152.727H201.03M201.03 152.727V77.4243M201.03 152.727V226.97M201.03 152.727H352.697M352.697 152.727V25.4546H400.424M352.697 152.727H400.424M400.424 152.727V284.242M400.424 152.727H542.546V112.424" stroke="#F3F3F3" stroke-width="1.06061" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.24 16.97"/>
+<g filter="url(#filter0_d)">
+<circle cx="58.9091" cy="152.727" r="50.9091" fill="#282828"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="36" y="132" width="43" height="43">
+<path d="M61.9195 144C61.5178 140.443 59.75 139.5 59.75 139.5H48.5C48.5 139.5 50.1875 141.75 50.1875 145.5C50.1875 146.648 50.0294 147.655 49.8101 148.5" stroke="black" stroke-width="3"/>
+<path d="M60.5 148.5H41C41 148.5 44.1875 151.125 44.1875 159C44.1875 166.875 41 169.5 41 169.5H57.1897" stroke="black" stroke-width="3"/>
+<path d="M54.5 172.809C62.9907 165.401 61.4341 150.516 59.5944 144H69.7832C77.5947 157.17 77.3055 163.446 76.1513 172.809H54.5Z" stroke="black" stroke-width="3"/>
+<path d="M51.5 132H44L45.875 134.25L44 136.5H51.5V132Z" fill="black"/>
+<path d="M51.5 132V139.5" stroke="black" stroke-width="3"/>
+</mask>
+<g mask="url(#mask0)">
+<rect x="35" y="129" width="48" height="48" fill="url(#paint0_linear)"/>
+</g>
+</g>
+<path d="M215.879 92.2728L201.03 97.5758M179.818 77.4243L185.121 61.5152" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M201.03 75.8334V97.5758" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M185.121 61.5152L215.12 91.5137" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M179.818 77.4243H201.03" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="201.031" cy="76.3636" r="8.48485" fill="#282828"/>
+<circle cx="185.122" cy="61.5151" r="4.24242" fill="#282828"/>
+<circle cx="179.818" cy="77.4242" r="4.24242" fill="#282828"/>
+<circle cx="201.031" cy="97.5758" r="4.24242" fill="#282828"/>
+<circle cx="215.879" cy="92.2728" r="4.24242" fill="#282828"/>
+<path d="M420.576 10.6061L404.667 4.24243L388.758 10.6061M419.515 41.3636L404.667 46.6667L389.288 41.3636" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M404.667 4.24243V46.6667" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M419.816 10.6061L389.818 40.6045" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M388.758 10.6061L418.756 40.6045" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="404.667" cy="25.4546" r="8.48485" fill="#282828"/>
+<circle cx="404.667" cy="4.24242" r="4.24242" fill="#282828"/>
+<circle cx="420.576" cy="10.606" r="4.24242" fill="#282828"/>
+<circle cx="388.758" cy="10.606" r="4.24242" fill="#282828"/>
+<circle cx="389.818" cy="41.3636" r="4.24242" fill="#282828"/>
+<circle cx="404.667" cy="46.6667" r="4.24242" fill="#282828"/>
+<circle cx="419.516" cy="41.3636" r="4.24242" fill="#282828"/>
+<path d="M374.969 153.788L369.666 137.879L353.757 131.515L337.848 137.879L332.545 153.788L338.378 168.636L353.757 173.939L368.606 168.636L374.969 153.788Z" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M353.757 131.515V173.939" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M368.907 137.879L338.909 167.877" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M337.848 137.879L367.847 167.877" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M332.545 153.788H374.969" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="353.758" cy="152.727" r="8.48485" fill="#282828"/>
+<circle cx="353.757" cy="131.515" r="4.24242" fill="#282828"/>
+<circle cx="369.666" cy="137.879" r="4.24242" fill="#282828"/>
+<circle cx="337.849" cy="137.879" r="4.24242" fill="#282828"/>
+<circle cx="332.545" cy="153.788" r="4.24242" fill="#282828"/>
+<circle cx="338.909" cy="168.636" r="4.24242" fill="#282828"/>
+<circle cx="374.969" cy="153.788" r="4.24242" fill="#282828"/>
+<circle cx="353.757" cy="173.939" r="4.24242" fill="#282828"/>
+<circle cx="368.606" cy="168.636" r="4.24242" fill="#282828"/>
+<path d="M563.758 94.3939L558.455 78.4849L542.546 72.1212L526.637 78.4849L521.333 94.3939L527.167 109.242L542.546 114.545L557.394 109.242L563.758 94.3939Z" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M542.545 72.1212V114.545" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M557.695 78.4849L527.697 108.483" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M526.636 78.4849L556.635 108.483" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M521.333 94.394H563.758" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="542.546" cy="93.3334" r="8.48485" fill="#282828"/>
+<circle cx="542.546" cy="72.1212" r="4.24242" fill="#282828"/>
+<circle cx="558.454" cy="78.4848" r="4.24242" fill="#282828"/>
+<circle cx="526.637" cy="78.4848" r="4.24242" fill="#282828"/>
+<circle cx="521.333" cy="94.394" r="4.24242" fill="#282828"/>
+<circle cx="527.697" cy="109.242" r="4.24242" fill="#282828"/>
+<circle cx="563.758" cy="94.394" r="4.24242" fill="#282828"/>
+<circle cx="542.546" cy="114.545" r="4.24242" fill="#282828"/>
+<circle cx="557.394" cy="109.242" r="4.24242" fill="#282828"/>
+<path d="M421.636 285.303L415.273 300.152L400.424 305.455L385.045 300.152L379.212 285.303L384.515 269.394L400.424 263.03" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M400.424 263.03V305.455" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M403.606 281.362L385.576 299.392" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M384.515 269.394L414.514 299.392" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M379.212 285.303H421.636" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="400.425" cy="284.242" r="8.48485" fill="#282828"/>
+<circle cx="400.424" cy="263.03" r="4.24242" fill="#282828"/>
+<circle cx="384.516" cy="269.394" r="4.24242" fill="#282828"/>
+<circle cx="379.212" cy="285.303" r="4.24242" fill="#282828"/>
+<circle cx="385.576" cy="300.152" r="4.24242" fill="#282828"/>
+<circle cx="421.636" cy="285.303" r="4.24242" fill="#282828"/>
+<circle cx="400.424" cy="305.455" r="4.24242" fill="#282828"/>
+<circle cx="415.273" cy="300.152" r="4.24242" fill="#282828"/>
+<path d="M222.243 230.152L215.879 245M185.652 245L179.818 230.152L185.121 214.242L201.03 207.879" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M201.03 207.879V231.742" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M203.453 226.97L186.182 244.241" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M185.121 214.242L215.12 244.241" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M179.818 230.152H222.243" stroke="#BB8EFF" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="201.031" cy="229.091" r="8.48485" fill="#282828"/>
+<circle cx="201.031" cy="207.879" r="4.24242" fill="#282828"/>
+<circle cx="185.122" cy="214.242" r="4.24242" fill="#282828"/>
+<circle cx="179.818" cy="230.152" r="4.24242" fill="#282828"/>
+<circle cx="186.182" cy="245" r="4.24242" fill="#282828"/>
+<circle cx="222.242" cy="230.152" r="4.24242" fill="#282828"/>
+<circle cx="215.879" cy="245" r="4.24242" fill="#282828"/>
+<defs>
+<filter id="filter0_d" x="0" y="95.8182" width="117.818" height="117.818" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="4"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear" x1="83" y1="129" x2="35" y2="177" gradientUnits="userSpaceOnUse">
+<stop stop-color="#408BFC"/>
+<stop offset="1" stop-color="#BB8EFF"/>
+</linearGradient>
+</defs>
+</svg>
