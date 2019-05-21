@@ -73,6 +73,20 @@ h3 {
   display: flex;
   flex-direction: row;
   align-items: center;
+
+  .buttonMargin {
+    margin-right: 32px;
+
+    @media screen and (max-width: 1200px) {
+      margin-right: 0;
+    }
+
+  }
+
+  @media screen and (max-width: 1200px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .button {
@@ -186,6 +200,10 @@ h3 {
   flex-direction: column;
   align-items: center;
   padding: 24px 32px;
+
+  @media screen and (max-width: 1200px) {
+    padding: 24px 16px;
+  }
 }
 
 .site-title {
@@ -241,6 +259,11 @@ h3 {
       flex-direction: column;
       width: 50%;
     }
+  }
+
+  @media screen and (max-width: 1200px) {
+    padding: 0;
+    width: 100%;
   }
 }
 

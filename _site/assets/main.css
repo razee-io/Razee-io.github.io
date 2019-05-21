@@ -246,6 +246,15 @@ h3 {
   display: flex;
   flex-direction: row;
   align-items: center; }
+  .ctaWrapper .buttonMargin {
+    margin-right: 32px; }
+    @media screen and (max-width: 1200px) {
+      .ctaWrapper .buttonMargin {
+        margin-right: 0; } }
+  @media screen and (max-width: 1200px) {
+    .ctaWrapper {
+      flex-direction: column;
+      align-items: flex-start; } }
 
 .button {
   color: #f3f3f3;
@@ -329,6 +338,9 @@ h3 {
   flex-direction: column;
   align-items: center;
   padding: 24px 32px; }
+  @media screen and (max-width: 1200px) {
+    .site-header {
+      padding: 24px 16px; } }
 
 .site-title {
   font-size: 26px;
@@ -372,6 +384,10 @@ h3 {
       .topBar .navItems {
         flex-direction: column;
         width: 50%; } }
+  @media screen and (max-width: 1200px) {
+    .topBar {
+      padding: 0;
+      width: 100%; } }
 
 .site-nav {
   display: flex;

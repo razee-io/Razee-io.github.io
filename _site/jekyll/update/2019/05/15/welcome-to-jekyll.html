@@ -20,9 +20,15 @@
 {"description":"You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.","@type":"BlogPosting","url":"http://localhost:4000/jekyll/update/2019/05/15/welcome-to-jekyll.html","headline":"Welcome to Jekyll!","dateModified":"2019-05-15T11:19:08-05:00","datePublished":"2019-05-15T11:19:08-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/jekyll/update/2019/05/15/welcome-to-jekyll.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css">
-  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:300|IBM+Plex+Sans:300" rel="stylesheet">
-  <!--<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Razee" />-->
-</head>
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:300|IBM+Plex+Sans:300" rel="stylesheet"><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140586716-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-140586716-1');
+</script></head>
 
 
   <body>
@@ -43,11 +49,10 @@
         </label>
 
         <div class="trigger"><div class="navItems">
-              <a class="page-link" href="https://github.com/razee-io/Razee">Docs</a>
-              <a class="page-link" href="">Downloads</a>
-              <a class="page-link" href="">Support</a>
+              <a class="page-link" href="https://github.com/razee-io/Razee/blob/master/README.md">Docs</a>
+              <a class="page-link" href="https://ibm-container-service.slack.com/messages/CJQG07QTX">Slack</a>
               <div class="linkDivider"></div>
-              <a href=""><img src="/assets/images/githubIcon.svg" alt="Razee github icon link"></a>
+              <a href="https://github.com/razee-io/Razee"><img src="/assets/images/githubIcon.svg" alt="Razee github icon link"></a>
             </div>
             <!-- <a class="page-link" href="/about/">About</a> --></div>
       </nav></div>
@@ -89,8 +94,8 @@
             <h1>A multi-cluster continuous delivery tool for Kubernetes</h1>
             <p>Automate the rollout process of Kubernetes resources across multiple clusters, environments, and cloud providers, and gain insight into what applications and versions run in your cluster.</p>
             <div class="ctaWrapper">
-              <a class="button primary" href="">Try out RazeeDash</a>
-              <a class="button buttonOutline" style="margin-left: 32px;" href="#why-razee">Why Razee?</a>
+              <a class="button primary buttonMargin" href="#get-razee">Try out RazeeDash</a>
+              <a class="button buttonOutline" href="#why-razee">Why Razee?</a>
             </div>
             <span class="openSourceMark">An IBM open source project</span>
           </div>
@@ -109,7 +114,7 @@
           </div>
         </div>
       </div>
-      <section class="offsetBG">
+      <section id="get-razee" class="offsetBG">
         <div class="wrapper alignCenter">
           <h2>Start automating the deployment to thousands of clusters with ease</h2>
           <div class="row">
@@ -117,7 +122,9 @@
               <p>Install RazeeDash</p>
               <div class="codeBlock col">
                 <span class="comment"># RazeeDash install</span>
-                <span class="code">`kubectl apply -f *need url*</span>
+                <span class="code">kubectl apply -f https://github.com/razee-io/Kapitan-delta/releases/latest/download/resource.yaml
+kubectl apply -f https://github.com/razee-io/Razee/releases/latest/download/resource.yaml
+                </span>
               </div>
               <p>Open RazeeDash</p>
               <div class="codeBlock col">
@@ -171,7 +178,7 @@
           <h2 style="margin-bottom: 16px;">Get a little Razee support</h2>
           <p style="max-width: 608px; text-align: center; margin: 0;">Join the Razee development team in the #razee Slack channel to learn more about Razee, discuss configuration options, or show us how you use the Razee components to build your own continuous delivery pipeline. We love to hear your feedback!</p>
           <div class="supportWrapper">
-            <a class="button primary">Connect with us</a>
+            <a class="button primary center" href="https://ibm-container-service.slack.com/messages/CJQG07QTX">Connect with us</a>
             <img src="/assets/images/slack-new-logo.svg" alt="Slack logo, razee support button">
           </div>
         </div>
@@ -212,7 +219,7 @@
 </div>
 
       <div class="footer-col footer-col-3">
-        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
+        <p>A multi-cluster continuous delivery tool for Kubernetes</p>
       </div>
     </div>
 
