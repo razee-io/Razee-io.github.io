@@ -450,6 +450,12 @@ section {
 .offsetBG {
   background-color: #3d3d3d; }
 
+.supportText {
+  max-width: 608px;
+  text-align: center;
+  margin: 0;
+  color: #bebebe; }
+
 .codeSnippets p {
   font-size: 18px;
   color: #f3f3f3;
