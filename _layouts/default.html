@@ -21,23 +21,7 @@
             <span class="openSourceMark">An IBM open source project</span>
           </div>
           <div class="col">
-            <div class="terminal">
-              <div class="terminalHeader">
-                <div class="windowButton red"></div>
-                <div class="windowButton yellow"></div>
-                <div class="windowButton green"></div>
-              </div>
-              <div class="terminalContent">
-                <p>MacBook-Pro:~ kubectl apply -f "https://app.razee.io/api/install/cluster"</p>
-                <p>namespace "razee" created</p>
-                <p>configmap "watch-keeper-config" created</p>
-                <p>secret "watch-keeper-secret" created</p>
-                <p>clusterrole "cluster-reader" created</p>
-                <p>serviceaccount "watch-keeper-sa" created</p>
-                <p>networkpolicy "watch-keeper-deny-ingress" created</p>
-                <p>deployment "watch-keeper" created</p>
-              </div>
-            </div>
+              <img src="/assets/images/scale.svg" alt="">
           </div>
         </div>
       </div>
@@ -49,8 +33,12 @@
               <p>Install RazeeDash</p>
               <div class="codeBlock col">
                 <span class="comment"># RazeeDash install</span>
-                <span class="code">kubectl apply -f https://github.com/razee-io/Kapitan-delta/releases/latest/download/resource.yaml</span>
-                <span class="code">kubectl apply -f https://github.com/razee-io/Razee/releases/latest/download/resource.yaml</span>
+                <span class="code">kubectl apply -f https://github.com/razee-io/Razee/releases/latest/download/razeedeploy.yaml</span>
+                <span class="code">kubectl apply -f https://github.com/razee-io/Razee/releases/latest/download/razeedash-all-in-one.yaml</span>
+                <span class="comment"># Wait for the razeedash-api deployment to complete and then create the RazeeDash ConfigMap</span>
+                <span class="code">curl -fsSL https://raw.githubusercontent.com/razee-io/Kube-cloud-scripts/master/bin/kc_create_razeedash_config_map.sh | sh</span>
+                <span class="comment"># Open RazeeDash in your browser</span>
+                <span class="code">open $(kubectl get cm razeedash-config -n razee -o jsonpath='{.data.root_url}')</span>
               </div>
               <p>Try RazeeDash</p>
               <div class="codeBlock col">
@@ -59,7 +47,7 @@
               </div>
             </div>
             <div class="col">
-              <img src="/assets/images/clusterGraphic.svg" alt="Graphic showing dotted lines connecting all of your clusters from Razee.">
+              <img src="/assets/images/clusterGraphic.svg" alt="">
             </div>
           </div>
         </div>
@@ -105,7 +93,7 @@
           <p class="supportText">Join the Razee development team in the #razee Slack channel to learn more about Razee, discuss configuration options, or show us how you use the Razee components to build your own continuous delivery pipeline. We love to hear your feedback!</p>
           <div class="supportWrapper">
             <a class="button primary center" href="https://ibm-container-service.slack.com/messages/CJQG07QTX">Connect with us</a>
-            <img src="/assets/images/slack-new-logo.svg" alt="Slack logo, razee support button">
+            <img src="/assets/images/slack-new-logo.svg" alt="">
           </div>
         </div>
       </section>
